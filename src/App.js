@@ -3,11 +3,12 @@ import './App.css';
 import AddSubscribers from './components/AddSubscribers';
 import ViewSubscribers from './components/ViewSubscribers';
 import Search from './components/Search';
+import Delete from './components/Delete';
 
 function App() {
   return (
     <div>
-      <Search/>
+      <Delete/>
     </div>
   );
 }
